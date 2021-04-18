@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:viewmodels="clr-namespace:validation4.viewmodels"
+                    xmlns:views="clr-namespace:validation4.views"
+                    xmlns:local="clr-namespace:validation4.assets">
+    
+    <DataTemplate DataType="{x:Type viewmodels:DeliveryVM}">
+        <views:deliveriyVW />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type viewmodels:ProviderVM}">
+        <views:providersVW />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type viewmodels:HomeVM}">
+        <views:homeVW />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type viewmodels:LoginVM}">
+        <views:loginVW />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type viewmodels:RegisterVM}">
+        <views:registerVW />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type viewmodels:ShowProviderVM}">
+        <views:showproviderVW />
+    </DataTemplate>
+</ResourceDictionary>

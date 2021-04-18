@@ -1,0 +1,14 @@
+﻿<Application x:Class="validation4.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:validation4">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="assets/styles/stylesRD.xaml" />
+                <ResourceDictionary Source="assets/styles/iconsRD.xaml" />
+                <ResourceDictionary Source="assets/datatemplatesRD.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
